@@ -1,5 +1,6 @@
 import React from 'react'
 import LogoChill from '../elements/LogoChill'
+import bgChill from '/Logo-chill.svg'
 
 const Navbar = () => {
   return (
@@ -7,7 +8,7 @@ const Navbar = () => {
         <nav className='w-full flex justify-between items-center gap-4 p-5 bg-black'>
 
             <div className="flex flex-row gap-6">
-                    <div className="w-32 h-8 bg-no-repeat bg-center bg-[url('/Logo-chill.svg')] bg-contain"></div>
+                    <div className="w-32 h-8 bg-no-repeat bg-center bg-contain" style={{ backgroundImage: `url(${bgChill})` }}></div>
                     <a href="#" className="text-gray-400 hover:text-white">Series</a>
                     <a href="#" className="text-gray-400 hover:text-white">Film</a>
                     <a href="#" className="text-gray-400 hover:text-white">Daftar Saya</a>
